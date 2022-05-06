@@ -4,7 +4,9 @@
   "description": "Resolve a nested selector in a PostCSS AST",
   "main": "index.js",
   "scripts": {
-    "test": "ava test/*-test.js"
+    "test": "ava test/*-test.js",
+    "prettier:fix": "prettier --write .",
+    "prettier:check": "prettier --check ."
   },
   "author": "David Clark",
   "license": "MIT",
@@ -15,6 +17,7 @@
     "ava": "^0.19.1",
     "postcss": "^8.4.13",
     "postcss-nested": "^5.0.6",
-    "postcss-nesting": "^10.1.4"
+    "postcss-nesting": "^10.1.4",
+    "prettier": "^2.6.2"
   }
 }

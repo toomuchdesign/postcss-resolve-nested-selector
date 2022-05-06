@@ -21,8 +21,8 @@ For example, given this JS:
 
 ```js
 var resolvedNestedSelector = require('postcss-resolve-nested-selector');
-postcssRoot.eachRule(function(rule) {
-  rule.selectors.forEach(function(selector) {
+postcssRoot.eachRule(function (rule) {
+  rule.selectors.forEach(function (selector) {
     console.log(resolvedNestedSelector(selector, rule));
   });
 });
